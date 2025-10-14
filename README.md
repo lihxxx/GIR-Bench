@@ -1,3 +1,5 @@
+<img src="assets/logo.jpeg" alt="Logo" width="200">
+
 ## GIR-Bench: Versatile Benchmark for Generating Images with Reasoning
 [![arXiv](https://img.shields.io/badge/arXiv-2510.11026-b31b1b.svg)](https://arxiv.org/abs/2510.11026)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://lihxxx.github.io/DisPose/)
@@ -54,20 +56,17 @@ dataset/
     ├── t2i/
     │   └── <YourModel>/
     │       ├── SpatialLayout/
-    │       │   ├── 001.png
-    │       │   └── 002.png
+    │       │   └── <image_id>.png
     │       ├── NumericalReasoning/
-    │       │   ├── 001.png
-    │       │   └── 002.png
+    │       │   └── <image_id>.png
     │       ├── TextRendering/
-    │       │   ├── 001.png      
-    │       │   └── 002.png
+    │       │   └── <image_id>.png
     │       ├── Zoology/
-    │       │   └── 001.png   
+    │       │   └── <image_id>.png
     │       ├── Botany/
-    │       │   └── 001.png  
+    │       │   └── <image_id>.png
     │       └── Geography/
-    │           └── 001.png   
+    │           └── <image_id>.png
     └── editing/
         └── <YourModel>/
             ├── ReasoningPerception/

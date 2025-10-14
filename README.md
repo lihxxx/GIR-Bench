@@ -4,7 +4,7 @@
 <h2 align="center"><a href="https://arxiv.org/abs/2510.11026">GIR-Bench: Versatile Benchmark for Generating Images with Reasoning</a></h2>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.11026-b31b1b.svg)](https://arxiv.org/abs/2510.11026)
-[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://lihxxx.github.io/DisPose/)
+[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://hkust-longgroup.github.io/GIR-Bench)
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-blue.svg)](https://huggingface.co/datasets/lihxxx/GIR-Bench)
 <!-- [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)]() -->
 

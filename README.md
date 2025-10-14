@@ -45,7 +45,7 @@ bash run_evaluation_gen.sh
 ```bash
 bash run_evaluation_edit.sh
 ```
-### Evaluate Your Own Model
+#### Evaluate Your Own Model
 Please organize your model outputs as below and put them into the corresponding `MODELS_DIR`. Default locations:
 - t2i: `MODELS_DIR=./dataset/generation/t2i`
 - editing: `MODELS_DIR=./dataset/generation/editing`

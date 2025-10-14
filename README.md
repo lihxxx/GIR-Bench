@@ -1,6 +1,8 @@
-<img src="assets/logo.jpeg" alt="Logo" width="200">
+<p align="center">
+  <img src="assets/logo.jpeg" alt="Logo" width="100"/>
+</p>
+<h2 align="center"><a href="https://arxiv.org/abs/2510.11026">GIR-Bench: Versatile Benchmark for Generating Images with Reasoning</a></h2>
 
-## GIR-Bench: Versatile Benchmark for Generating Images with Reasoning
 [![arXiv](https://img.shields.io/badge/arXiv-2510.11026-b31b1b.svg)](https://arxiv.org/abs/2510.11026)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://lihxxx.github.io/DisPose/)
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-blue.svg)](https://huggingface.co/datasets/lihxxx/GIR-Bench)

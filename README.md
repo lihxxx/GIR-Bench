@@ -6,7 +6,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2510.11026-b31b1b.svg)](https://arxiv.org/abs/2510.11026)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://hkust-longgroup.github.io/GIR-Bench)
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-blue.svg)](https://huggingface.co/datasets/lihxxx/GIR-Bench)
-<!-- [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)]() -->
+[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2510.11026)
 
 Reasoning-centric evaluation of multimodal unified models across Understanding – Generation Consistency (UGC), Text-to-Image, and Editing, revealing the persistent gap between reasoning and faithful generation.
 ![GIR-Bench Overview](assets/fig1.png)

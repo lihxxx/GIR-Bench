@@ -15,7 +15,7 @@ Reasoning-centric evaluation of multimodal unified models across Understanding �
 - **`2025/10/14`**: We have released the evaluation code and the dataset for GIR-bench.
 
 ## 🔧 Preparations 
-### Environment Setup
+#### Environment Setup
 
 ```bash
 conda create -n GIR-Bench python==3.10
@@ -23,12 +23,12 @@ conda activate GIR-Bench
 pip install -r requirement.txt
 git clone https://github.com/facebookresearch/dinov3.git
 ```
-### Dataset Download
+#### Dataset Download
 ```
 huggingface-cli download --resume --repo-type dataset lihxxx/GIR-Bench --local-dir ./dataset
 ```
 
-### Pre-Trained Weights Download
+#### Pre-Trained Weights Download
 ```
 mkdir weights
 huggingface-cli download --resume-download OpenGVLab/InternVL3_5-38B-HF --local-dir ./weights/InternVL3_5-38B-HF
@@ -36,12 +36,12 @@ huggingface-cli download --resume-download OpenGVLab/InternVL3_5-38B-HF --local-
 Please download `dinov3_vit7b16_pretrain_lvd1689m-a955f4ea.pth` from the [Meta DINOv3 Downloads](https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/) page and place it under `weights/`.
 
 ## 🔥 Evaluation
-### GIR-Bench-UGC and GIR-Bench-T2I
+#### GIR-Bench-UGC and GIR-Bench-T2I
 ```bash
 bash run_evaluation_gen.sh
 ```
 
-### GIR-Bench-Edit
+#### GIR-Bench-Edit
 ```bash
 bash run_evaluation_edit.sh
 ```
@@ -81,10 +81,9 @@ dataset/
 
 By default, the scripts evaluate all subfolders under the configured `MODELS_DIR`. To evaluate only specific models:
 
-1) Set the `MODELS` array in the shell script(s):
+1) Set the `MODELS` array in the shell script:
 
 ```bash
-# In eval/run_evaluation_gen.sh or eval/run_evaluation_edit.sh
 MODELS=("YourModel1" "YourModel2")
 ```
 
@@ -95,7 +94,7 @@ MODELS=("YourModel1" "YourModel2")
 --models "${MODELS[@]}"
 ```
 
-3) Run the script(s):
+3) Run the script:
 
 ```bash
 bash run_evaluation_gen.sh

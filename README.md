@@ -12,6 +12,7 @@ Reasoning-centric evaluation of multimodal unified models across Understanding �
 ![GIR-Bench Overview](assets/fig1.png)
 
 ## 📣 News
+- **`2026/01/26`**: 🎉 GIR-bench is accepted by ICLR 2026!
 - **`2025/10/14`**: We have released the evaluation code and the dataset for GIR-bench.
 
 ## 🔧 Preparations 
